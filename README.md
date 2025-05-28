@@ -1,15 +1,17 @@
-# 🚚 **NS Express – Trucking Data Management & BI Dashboard**
+# 🚚 NS Express – Trucking Data Management & BI Dashboard
 
 ---
 
-## 📌 **Overview**  
+## 📌 Overview  
 NS Express is a growing trucking company aiming to streamline daily operations and fuel cost tracking. This project brings their workflow into the digital age using **MySQL**, **Excel**, **Python**, and **Tableau** to build a full-stack data management and visualization system.
 
 From manually entering costs and load data to building automated pipelines and a live dashboard, this solution empowers NS Express to make faster, smarter business decisions.
 
+![ERD Diagram](./Screenshot%202025-05-27%20at%209.07.16%20PM.png)
+
 ---
 
-## 🎓 **What I Learned**  
+## 🎓 What I Learned  
 🔹 **Database Design** – Built relational schemas and ERDs to model real business operations  
 🔹 **Excel → MySQL Integration** – Made spreadsheets the live heartbeat of a backend database  
 🔹 **Python Automation** – Wrote a script to sync Excel updates straight to MySQL automatically  
@@ -18,7 +20,7 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## 📂 **Files in This Repo**  
+## 📂 Files in This Repo  
 • `NSExpress_Database.xlsx` – Core Excel file with all trucking data (Loads, Costs, Drivers, Trucks)  
 • `NS_Package.twbx` – Final Tableau dashboard connected directly to the Excel file  
 • `nsexpress.py` – Python script that automates Excel → MySQL syncing  
@@ -27,26 +29,33 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## 🧩 **Project Workflow**
+## 🧩 Project Workflow
 
 ### 🧾 Phase 1: Data Collection & Modeling  
 - Manually transferred Load & Diesel Cost data to Excel  
 - Designed the ERD and relational schema to represent operations  
 - Established core tables: `Driver`, `Load`, `Truck`, and `Diesel_Cost`  
 
-## 🛠️ Phase 2: Database & Automation  
+![Excel Sheet Example](./Screenshot%202025-05-27%20at%209.12.25%20PM.png)
+
+### 🛠️ Phase 2: Database & Automation  
 - Built a MySQL database reflecting the schema  
 - Connected Excel to both MySQL and Tableau  
 - Developed a Python automation script to keep MySQL updated when Excel changes  
 
-##  📊 Phase 3: Analysis & Dashboard  
+![Python Sync Script](./Screenshot%202025-05-27%20at%209.08.33%20PM.png)
+
+### 📊 Phase 3: Analysis & Dashboard  
 - Cleaned and queried the data using SQL (Revenue, Cost, Profit, Margin)  
 - Created multiple Tableau sheets to explore KPIs by Driver, Month, and Route  
 - Designed a clean, scalable, and user-friendly Tableau dashboard  
 
+![MySQL Queries](./Screenshot%202025-05-27%20at%209.09.57%20PM.png)  
+![Tableau Dashboard](./Screenshot%202025-05-27%20at%209.10.58%20PM.png)
+
 ---
 
-## 📈 **Tableau Dashboard Highlights**  
+## 📈 Tableau Dashboard Highlights  
 ✔ Revenue vs. Cost – Dual-axis trend over time  
 ✔ Monthly Profit & Margin tracking  
 ✔ Driver performance analysis  
@@ -57,7 +66,7 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## 👨‍💻 **My Role: Full-Stack Developer & Data Analyst**  
+## 👨‍💻 My Role: Full-Stack Developer & Data Analyst  
 - Collected and organized operational data  
 - Built schema and backend from scratch  
 - Scripted automation using Python  
@@ -67,7 +76,7 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## 🛠️ **Tools & Technologies**  
+## 🛠️ Tools & Technologies  
 - **Excel** – Operational hub for trucking data  
 - **MySQL** – Relational database and querying backend  
 - **Python** – Scripted automation for real-time data syncing  
@@ -75,7 +84,7 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## 📝 **Lessons Learned**  
+## 📝 Lessons Learned  
 - Automation = fewer mistakes and more time for strategy  
 - Data-driven decisions can transform small business success  
 - Dashboards must balance simplicity with insight  
@@ -83,6 +92,6 @@ From manually entering costs and load data to building automated pipelines and a
 
 ---
 
-## ✅ **Project Status**  
-## ✅ Project is fully deployed and in use by NS Express  
-## 🚀 Ready to scale up as the business grows
+## ✅ Project Status  
+✅ Project is fully deployed and in use by NS Express  
+🚀 Ready to scale up as the business grows
