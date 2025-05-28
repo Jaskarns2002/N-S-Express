@@ -1,4 +1,4 @@
-# 🚚 NS Express – Trucking Data Management & BI Dashboard
+# 🚚 **NS Express – Trucking Data Management & BI Dashboard**
 
 ---
 
@@ -7,7 +7,7 @@ NS Express is a growing trucking company aiming to streamline daily operations a
 
 From manually entering costs and load data to building automated pipelines and a live dashboard, this solution empowers NS Express to make faster, smarter business decisions.
 
-![ERD Diagram](./Screenshot%202025-05-27%20at%209.07.16%20PM.png)
+<img width="600" alt="ERD Diagram" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/erd_image_url" />
 
 ---
 
@@ -36,22 +36,26 @@ From manually entering costs and load data to building automated pipelines and a
 - Designed the ERD and relational schema to represent operations  
 - Established core tables: `Driver`, `Load`, `Truck`, and `Diesel_Cost`  
 
-![Excel Sheet Example](./Screenshot%202025-05-27%20at%209.12.25%20PM.png)
+<img width="600" alt="Excel Data Sheet" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/excel_image_url" />
+
+---
 
 ### 🛠️ Phase 2: Database & Automation  
 - Built a MySQL database reflecting the schema  
 - Connected Excel to both MySQL and Tableau  
 - Developed a Python automation script to keep MySQL updated when Excel changes  
 
-![Python Sync Script](./Screenshot%202025-05-27%20at%209.08.33%20PM.png)
+<img width="600" alt="Python Script" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/python_image_url" />
+
+---
 
 ### 📊 Phase 3: Analysis & Dashboard  
 - Cleaned and queried the data using SQL (Revenue, Cost, Profit, Margin)  
 - Created multiple Tableau sheets to explore KPIs by Driver, Month, and Route  
 - Designed a clean, scalable, and user-friendly Tableau dashboard  
 
-![MySQL Queries](./Screenshot%202025-05-27%20at%209.09.57%20PM.png)  
-![Tableau Dashboard](./Screenshot%202025-05-27%20at%209.10.58%20PM.png)
+<img width="600" alt="MySQL Queries" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/mysql_image_url" />  
+<img width="600" alt="Tableau Dashboard" src="https://github.com/YOUR_USERNAME/YOUR_REPO/assets/tableau_image_url" />
 
 ---
 
