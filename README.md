@@ -1,70 +1,72 @@
 🚚 NS Express – Trucking Data Management & BI Dashboard
 
 📌 Overview
+NS Express is a growing trucking company aiming to streamline daily operations and fuel cost tracking. This project brings their workflow into the digital age using MySQL, Excel, Python, and Tableau to build a full-stack data management and visualization system.
 
-NS Express is a small trucking company focused on efficient operations and cost management. This project modernizes their workflow by building a centralized data management system using MySQL, Excel, Python, and Tableau.
-
-From collecting manual data to automating real-time dashboard updates, the project ensures NS Express can scale its operations and make informed business decisions based on accurate analytics.
+From manually entering costs and load data to building automated pipelines and a live dashboard, this solution empowers NS Express to make faster, smarter business decisions.
 
 🎓 What I Learned
 
-🔹 Database Design – Built a full relational schema and ERD to model trucking operations
-🔹 Excel → MySQL Integration – Connected and synced spreadsheets with a live SQL database
-🔹 Python Automation – Developed a script to auto-update MySQL when Excel is modified
-🔹 SQL Analysis – Wrote queries to calculate cost, revenue, profit, and margin
-🔹 Tableau BI Dashboard – Created visual tools to track trends, detect issues, and showcase performance
+🔹 Database Design – Built relational schemas and ERDs to model real business operations
+🔹 Excel → MySQL Integration – Made spreadsheets the live heartbeat of a backend database
+🔹 Python Automation – Wrote a script to sync Excel updates straight to MySQL automatically
+🔹 SQL Analysis – Wrote queries for revenue, cost, profit, profit margin, and trends
+🔹 BI with Tableau – Built interactive dashboards to visualize performance and monitor metrics
 
-📂 Files in the Repository
+📂 Files in This Repo
 
-File	Description
-NSExpress_Database.xlsx	Master Excel file – core source of all data (loads, costs, trucks, drivers)
-NS_Package.twbx	Final Tableau dashboard file connected to the Excel sheet
-nsexpress.py	Python automation script to update MySQL database from Excel
-N&S_RelationalSchema.png	Clean relational schema showing foreign key structure
-N&S_ERD.png	Conceptual ERD diagram used during design phase
+📁 File	📄 Description
+NSExpress_Database.xlsx	🔌 Core Excel file with all trucking data (Loads, Costs, Drivers, Trucks)
+NS_Package.twbx	📊 Final Tableau dashboard connected directly to the Excel file
+nsexpress.py	🐍 Python script that automates Excel → MySQL syncing
+N&S_RelationalSchema.png	📐 Final relational schema design with foreign keys
+N&S_ERD.png	🧠 Initial ERD diagram from planning stage
 🧩 Project Workflow
 
 🧾 Phase 1: Data Collection & Modeling
-Gathered load and diesel cost data manually into Excel
-Designed an ERD & relational schema to represent drivers, trucks, costs, and loads
+Manually transferred Load & Diesel Cost data to Excel
+Designed the ERD and relational schema to represent operations
+Established core tables: Driver, Load, Truck, and Diesel_Cost
 🛠️ Phase 2: Database & Automation
-Created MySQL database using the schema
-Connected Excel to Tableau and MySQL
-Wrote a Python script to sync Excel → MySQL automatically when data is updated
-📊 Phase 3: Data Analysis & Dashboard
-Cleaned data and wrote SQL queries to analyze:
-Total revenue, fuel costs, profit, and margins
-Trends by month, driver performance, and route insights
-Built Tableau dashboards with filters for driver and time period
-Dashboard designed to be simple, scalable, and business-ready
-📈 Tableau Dashboard Features
+Built a MySQL database reflecting the schema
+Connected Excel to both MySQL and Tableau
+Developed a Python automation script to keep MySQL updated when Excel changes
+📊 Phase 3: Analysis & Dashboard
+Cleaned and queried the data using SQL (Revenue, Cost, Profit, Margin)
+Created multiple Tableau sheets to explore KPIs by Driver, Month, and Route
+Designed a clean, scalable, and user-friendly Tableau dashboard
+📈 Tableau Dashboard Highlights
 
-✔ Monthly Revenue vs. Cost comparison
-✔ Profit & Margin trend lines
-✔ Driver performance filtering
-✔ Visual map of routes & activity
-✔ Quick snapshot of business health
+✔ Revenue vs. Cost – Dual-axis trend over time
+✔ Monthly Profit & Margin tracking
+✔ Driver performance analysis
+✔ Route-level insights with map visuals
+✔ One-click filters to drill into any aspect of the business
 
-Built to help NS Express understand financial performance and make smarter decisions—even at a small scale.
+🧠 Built for clarity. Scaled for growth. Designed for action.
 🛠️ Technologies Used
 
-Excel – Centralized data hub
-MySQL – Backend data storage and SQL analysis
-Python – Automated Excel → MySQL updates
-Tableau – Business Intelligence dashboard for interactive insights
-👨‍💻 My Role: Full-Stack Developer & Analyst
+📊 Excel – Operational hub for trucking data
+🐬 MySQL – Relational database and querying backend
+🐍 Python – Scripted automation for real-time data syncing
+📉 Tableau – Interactive business intelligence dashboard
+👨‍💻 My Role: Full-Stack Developer & Data Analyst
 
-Manually collected, cleaned, and structured operational data
-Designed relational models and implemented MySQL backend
-Built Python automation and designed the final dashboard
-Aligned dashboard features with NS Express's real-world needs
+Collected and organized operational data
+Built schema and backend from scratch
+Scripted automation using Python
+Cleaned, queried, and analyzed real business metrics
+Designed and deployed the Tableau dashboard
+Tailored insights to small business goals & operations
 📝 Lessons Learned
 
-Even small businesses benefit greatly from data infrastructure
-Automation reduces manual work and ensures consistency
-Dashboards make data accessible to non-technical users
-A well-designed database schema is the backbone of clean analysis
+✅ Automation = fewer mistakes and more time for strategy
+✅ Data-driven decisions can transform small business success
+✅ Dashboards must balance simplicity with insight
+✅ Great analytics start with a clean schema
+
 ✅ Project Status
 
-✅ Fully implemented, live, and being used by NS Express to support business operations.
-📈 Ready to scale as the company grows.
+✅ Project is fully deployed and in use by NS Express
+🚀 Ready to scale up as the business grows
+
