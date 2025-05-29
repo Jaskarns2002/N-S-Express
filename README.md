@@ -7,7 +7,6 @@ NS Express is a growing trucking company aiming to streamline daily operations a
 
 From manually entering costs and load data to building automated pipelines and a live dashboard, this solution empowers NS Express to make faster, smarter business decisions.
 
-
 ---
 
 ## 🎓 What I Learned  
@@ -30,27 +29,26 @@ From manually entering costs and load data to building automated pipelines and a
 
 ## 🧩 Project Workflow
 
-### 🧾 Phase 1: Data Collection & Modeling  
-- Manually transferred Load & Diesel Cost data to Excel  
-- Designed the ERD and relational schema to represent operations  
-- Established core tables: `Driver`, `Load`, `Truck`, and `Diesel_Cost`  
+### 🧾 Phase 1: Data Collection & ERD Modeling  
+To begin the project, I manually gathered operational data from the company’s trucking records and structured it into Excel spreadsheets categorized by loads, diesel costs, drivers, and trucks. Based on this foundational data, I created an Entity-Relationship Diagram (ERD) to logically map out the database structure. This ensured a scalable design that supports relational integrity and business-specific querying needs.
 
-
----
-
-### 🛠️ Phase 2: Database & Automation  
-- Built a MySQL database reflecting the schema  
-- Connected Excel to both MySQL and Tableau  
-- Developed a Python automation script to keep MySQL updated when Excel changes  
-
+<img width="1440" alt="ERD Diagram" src="https://github.com/user-attachments/assets/7f0ad426-2fc9-46c1-909f-2e49174a5267" />
+<img width="1440" alt="Excel" src="https://github.com/user-attachments/assets/19a38d76-7d16-4957-a134-e0d7a346ec51" />
 
 ---
 
-### 📊 Phase 3: Analysis & Dashboard  
-- Cleaned and queried the data using SQL (Revenue, Cost, Profit, Margin)  
-- Created multiple Tableau sheets to explore KPIs by Driver, Month, and Route  
-- Designed a clean, scalable, and user-friendly Tableau dashboard  
+### 🛠️ Phase 2: Data Cleaning & Automation  
+After establishing the schema, I implemented a MySQL database to store and manage the cleaned data. This involved normalizing tables, removing nulls, and performing key financial calculations like total revenue, cost, and profit margins using SQL. To enhance efficiency, I developed a Python automation script that dynamically updates the MySQL database as new data is entered into the Excel sheets—enabling real-time data sync and eliminating manual data transfers.
 
+<img width="1440" alt="Python Script" src="https://github.com/user-attachments/assets/04a56cd1-6d90-4257-95a5-edc3965ce298" />  
+<img width="1440" alt="MYSQl" src="https://github.com/user-attachments/assets/0073f5d4-c63b-4d9e-b342-0809e7b37620" />
+
+---
+
+### 📊 Phase 3: Dashboard Development  
+With a clean and automated data pipeline in place, I transitioned to designing a professional-grade business intelligence dashboard using Tableau. The dashboard integrates financial KPIs, trend analysis, and driver-level metrics to provide real-time insights for operational and strategic decision-making. The final product includes interactive filters, route breakdowns, and monthly profit trend lines—allowing stakeholders to easily monitor performance and identify business opportunities.
+
+<img width="1440" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/baa5f866-afbd-4fb6-8db3-27c979f12c2c" />  
 
 ---
 
