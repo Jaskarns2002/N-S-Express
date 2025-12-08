@@ -48,7 +48,8 @@ After establishing the schema, I implemented a MySQL database to store and manag
 ### 📊 Phase 3: Dashboard Development  
 With a clean and automated data pipeline in place, I transitioned to designing a professional-grade business intelligence dashboard using Tableau. The dashboard integrates financial KPIs, trend analysis, and driver-level metrics to provide real-time insights for operational and strategic decision-making. The final product includes interactive filters, route breakdowns, and monthly profit trend lines—allowing stakeholders to easily monitor performance and identify business opportunities.
 
-<img width="1440" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/baa5f866-afbd-4fb6-8db3-27c979f12c2c" />  
+<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/548f3a50-a6be-4d42-a6e8-6971257aa3c9" />
+
 
 ---
 
